@@ -1,0 +1,40 @@
+nav img{
+    max-width: 100px;
+}
+.avatar{
+    max-width: 30px;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: red;
+}
+#searchInput {
+    width: 0;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    transition: width 0.5s ease, opacity 0.5s ease;
+}  
+#searchInput.active {
+    padding: 2px;
+    margin: 2px;
+    width: 175px;
+    opacity: 1;
+}
+footer{
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+footer a{
+    font-size: 0.8em;
+    margin: 10px;       
+}
+footer p{
+    font-size: 0.8em;
+    margin: 10px;  
+}
+.fab{
+    margin: 10px;
+    font-size: 1.8em;
+}
+  
